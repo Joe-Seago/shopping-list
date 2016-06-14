@@ -1,11 +1,13 @@
  * {
 	max-width: 20em;
-	margin: 0 auto; 
+	margin: 0 auto;
+	font-size: 30px; 
 } 
 
 img {
 	width: 30px;
 	height: 30px;
+	margin-top: 10px;
 }
 
 ul {
@@ -15,6 +17,7 @@ ul {
 
 h1 {
 	margin-bottom: .5em;
+	font-size: 50px;
 }
 
 .textBox {
@@ -26,28 +29,18 @@ h1 {
 	margin: 0 auto;
 }
 
-.itemList {
-	max-width: 100%;
-}
-
-.removeItem,
-.itemName,
-.gotIt {
-	display: inline-block;
-	width: 30%;
-	margin-top: .5em;
-}
-
 .removeImg {
 	text-align: right;
+	padding-right: 25px;
 }
 
 .itemName {
 	text-align: center;
 }
 
-.gotIt {
+.gotitImg {
 	text-align: left;
+	padding-left: 25px;
 }
 
 .strikeToggle {
