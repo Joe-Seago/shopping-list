@@ -1,0 +1,47 @@
+ * {
+	
+	max-width: 20em;
+	margin: 0 auto; 
+} 
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+h1 {
+	margin-bottom: .5em;
+}
+
+.textBox {
+	margin: .5em 0;
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.itemList {
+	max-width: 100%;
+}
+
+.removeItem,
+.itemName,
+.gotIt {
+	display: inline-block;
+	width: 30%;
+	margin-top: .5em;
+}
+
+.removeItem {
+	text-align: right;
+}
+
+.itemName {
+	text-align: center;
+}
+
+.gotIt {
+	text-align: left;
+}
